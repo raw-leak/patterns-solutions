@@ -19,28 +19,31 @@
 
 function validationAnagram(string1, string2) {
 
-       // comparing the length of each string
-       if(string1.length != string2.length ) return false // +1
-    
-       // declaring result objects
-       let frequencyCounter1 = {}
-       let frequencyCounter2 = {}
-   
-       // iterating the first string and save each key with it quantity
-       for (key of string1){
-           frequencyCounter1[key.toLowerCase()] = (frequencyCounter1[key] || 0 ) + 1
-       }
-   
-       // iterating the second string and save each key with it quantity
-       for (key of string2){
-           frequencyCounter2[key.toLowerCase()] = (frequencyCounter2[key] || 0 ) + 1
-       }
-    
-       for(let key in frequencyCounter1){
-           if(!frequencyCounter2[key] || frequencyCounter1[key] != frequencyCounter2[key] ) return false
-       }
-   
-       return true 
+    // comparing the length of each string
+    if (string1.length != string2.length) return false // +1
+
+    // declaring result object
+    let frequencyCounter = {}
+
+    // iterating the first string and save each key with it quantity
+    for (key of string1) {
+        frequencyCounter[key.toLowerCase()] = (frequencyCounter[key] || 0) + 1
+    }
+
+    // iterating the second string and save each key with it quantity
+    for (key of string2) {
+
+      if()  frequencyCounter[key.toLowerCase()] 
+
+
+
+    }
+
+    for (let key in frequencyCounter1) {
+        if (!frequencyCounter2[key] || frequencyCounter1[key] != frequencyCounter2[key]) return false
+    }
+
+    return true
 }
 
 // OUTPUT
