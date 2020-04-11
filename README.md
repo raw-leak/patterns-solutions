@@ -1,16 +1,20 @@
 # JavaScript Algorithms and Data Structures. 
 
-## [Frequency counter](frequency_counter/README.md)
-[examples](http://example.com)
+## Patterns
+
+### [Frequency counter](frequency_counter/README.md)
+### [Multiple pointer](multiple_pointers/README.md)
 
 
 
+## Data structure
+
+//todo
 
 
+Connect with me: 
 
 
+[<img src="./public/img/linkedin.png"  width="30">](https://www.linkedin.com/in/mykhaylo-gusak/) 
 
-[GitHub](https://github.com/MichaelXXI)
-
-![Tux, the Linux mascot](/give_my_five.gif)
-
+[<img src="./public/img/github.png"  width="30">](https://github.com/MichaelXXI)
